@@ -7,6 +7,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>SpecialFolder plugin for Xamarin</description>
         <dependencies>
+            <dependency id="FolderPath" version="1.0.0" />
             <dependency id="PCLStorage" version="1.0.2" />
         </dependencies>
     </metadata>
