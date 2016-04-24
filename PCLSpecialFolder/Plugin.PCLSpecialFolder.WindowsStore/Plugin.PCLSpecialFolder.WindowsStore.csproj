@@ -109,8 +109,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Plugin.PCLSpecialFolder.UWP\AwaitExtensions.WinRT.cs">
+      <Link>AwaitExtensions.WinRT.cs</Link>
+    </Compile>
     <Compile Include="..\Plugin.PCLSpecialFolder.UWP\PCLSpecialFolderImplementation.cs">
       <Link>PCLSpecialFolderImplementation.cs</Link>
+    </Compile>
+    <Compile Include="..\Plugin.PCLSpecialFolder.UWP\Requires.cs">
+      <Link>Requires.cs</Link>
+    </Compile>
+    <Compile Include="..\Plugin.PCLSpecialFolder.UWP\SFWinRTFolder.cs">
+      <Link>SFWinRTFolder.cs</Link>
     </Compile>
     <Compile Include="..\Plugin.PCLSpecialFolder\PCLSpecialFolder.cs">
       <Link>PCLSpecialFolder.cs</Link>
