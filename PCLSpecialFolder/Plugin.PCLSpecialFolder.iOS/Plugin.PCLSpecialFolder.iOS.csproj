@@ -41,6 +41,9 @@
     <Compile Include="..\Plugin.PCLSpecialFolder\PCLSpecialFolder.cs">
       <Link>PCLSpecialFolder.cs</Link>
     </Compile>
+    <Compile Include="..\Plugin.PCLSpecialFolder\PCLStorageExtensions.cs">
+      <Link>PCLStorageExtensions.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
