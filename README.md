@@ -1,5 +1,8 @@
 # PCL SpecialFolder
 
+![icon64](https://cloud.githubusercontent.com/assets/17246426/14784059/9e02ebde-0b2e-11e6-9b3e-b2597545f605.png)
+[![Build status](https://ci.appveyor.com/api/projects/status/c09he542tgvps8nl?svg=true)](https://ci.appveyor.com/project/picolyl/xamarinplugins-pclspecialfolder)
+
 Support library for [PCLStorage](https://github.com/dsplaisted/PCLStorage "PCLStorage") (Xamarin.Plugins).
 
 ## SpecialFolder
@@ -53,3 +56,4 @@ AssemblyInfo.cs
 ## Thanks
 
 - Base Library : [PCLStorage](https://github.com/dsplaisted/PCLStorage "PCLStorage")
+- Icon : [illustrain](http://illustrain.com/?p=8895 "illustrain")
