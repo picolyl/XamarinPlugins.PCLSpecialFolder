@@ -4,8 +4,12 @@
         <id>PCLSpecialFolder</id>
         <version>1.0.0</version>
         <authors>picolyl</authors>
+        <licenseUrl>https://msdn.microsoft.com/library/gg592960.aspx</licenseUrl>
+        <projectUrl>https://github.com/picolyl/XamarinPlugins.PCLSpecialFolder</projectUrl>
+        <iconUrl>https://cloud.githubusercontent.com/assets/17246426/14784059/9e02ebde-0b2e-11e6-9b3e-b2597545f605.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>SpecialFolder plugin for Xamarin</description>
+        <description>SpecialFolder plugins for Xamarin</description>
+        <tags>PCLStorage io storage file portable pcl winrt android ios xamarin monoandroid monodroid Xamarin.Mac Xamarin.iOS</tags>
         <dependencies>
             <dependency id="FolderPath" version="1.0.0" />
             <dependency id="PCLStorage" version="1.0.2" />
