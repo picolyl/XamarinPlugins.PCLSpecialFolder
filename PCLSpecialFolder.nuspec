@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>PCLSpecialFolder</id>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <authors>picolyl</authors>
         <licenseUrl>https://msdn.microsoft.com/library/gg592960.aspx</licenseUrl>
         <projectUrl>https://github.com/picolyl/XamarinPlugins.PCLSpecialFolder</projectUrl>
@@ -11,42 +11,42 @@
         <description>SpecialFolder plugins for Xamarin</description>
         <tags>PCLStorage io storage file portable pcl winrt android ios xamarin monoandroid monodroid Xamarin.Mac Xamarin.iOS</tags>
         <dependencies>
-            <dependency id="FolderPath" version="1.0.0" />
+            <dependency id="FolderPath" version="1.1.0" />
             <dependency id="PCLStorage" version="1.0.2" />
         </dependencies>
     </metadata>
     <files>
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\MonoAndroid\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\MonoAndroid\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Android\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\MonoAndroid\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Android\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\MonoAndroid\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\net45\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\net45\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Desktop\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\net45\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Desktop\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\net45\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\netcore45\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\netcore45\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.WindowsStore\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\netcore45\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.WindowsStore\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\netcore45\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\portable-net45+netcore45+wpa81\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\portable-net45+netcore45+wpa81\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\portable-net45+netcore45+wpa81\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\portable-net45+netcore45+wpa81\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\uap\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\uap\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.UWP\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\uap\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.UWP\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\uap\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\wpa81\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\wpa81\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.WindowsPhone81\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\wpa81\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.WindowsPhone81\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\wpa81\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\Xamarin.iOS\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\Xamarin.iOS\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.iOS\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\Xamarin.iOS\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.iOS\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\Xamarin.iOS\Plugin.PCLSpecialFolder.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.dll" target="lib\Xamarin.Mac20\Plugin.PCLSpecialFolder.Abstractions.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.Abstractions\bin\Release\Plugin.PCLSpecialFolder.Abstractions.XML" target="lib\Xamarin.Mac20\Plugin.PCLSpecialFolder.Abstractions.XML" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.iOS\bin\Release\Plugin.PCLSpecialFolder.dll" target="lib\Xamarin.Mac20\Plugin.PCLSpecialFolder.dll" />
-        <file src="PCLSpecialFolder\Plugin.PCLSpecialFolder.iOS\bin\Release\Plugin.PCLSpecialFolder.XML" target="lib\Xamarin.Mac20\Plugin.PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\MonoAndroid\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\MonoAndroid\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.Android\bin\Release\PCLSpecialFolder.dll" target="lib\MonoAndroid\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.Android\bin\Release\PCLSpecialFolder.XML" target="lib\MonoAndroid\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\net45\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\net45\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.Desktop\bin\Release\PCLSpecialFolder.dll" target="lib\net45\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.Desktop\bin\Release\PCLSpecialFolder.XML" target="lib\net45\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\netcore45\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\netcore45\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.WindowsStore\bin\Release\PCLSpecialFolder.dll" target="lib\netcore45\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.WindowsStore\bin\Release\PCLSpecialFolder.XML" target="lib\netcore45\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\portable-net45+netcore45+wpa81\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\portable-net45+netcore45+wpa81\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder\bin\Release\PCLSpecialFolder.dll" target="lib\portable-net45+netcore45+wpa81\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder\bin\Release\PCLSpecialFolder.XML" target="lib\portable-net45+netcore45+wpa81\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\uap\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\uap\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.UWP\bin\Release\PCLSpecialFolder.dll" target="lib\uap\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.UWP\bin\Release\PCLSpecialFolder.XML" target="lib\uap\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\wpa81\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\wpa81\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.WindowsPhone81\bin\Release\PCLSpecialFolder.dll" target="lib\wpa81\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.WindowsPhone81\bin\Release\PCLSpecialFolder.XML" target="lib\wpa81\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\Xamarin.iOS\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\Xamarin.iOS\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.iOS\bin\Release\PCLSpecialFolder.dll" target="lib\Xamarin.iOS\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.iOS\bin\Release\PCLSpecialFolder.XML" target="lib\Xamarin.iOS\PCLSpecialFolder.XML" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.dll" target="lib\Xamarin.Mac20\PCLSpecialFolder.Abstractions.dll" />
+        <file src="Plugins\PCLSpecialFolder.Abstractions\bin\Release\PCLSpecialFolder.Abstractions.XML" target="lib\Xamarin.Mac20\PCLSpecialFolder.Abstractions.XML" />
+        <file src="Plugins\PCLSpecialFolder.iOS\bin\Release\PCLSpecialFolder.dll" target="lib\Xamarin.Mac20\PCLSpecialFolder.dll" />
+        <file src="Plugins\PCLSpecialFolder.iOS\bin\Release\PCLSpecialFolder.XML" target="lib\Xamarin.Mac20\PCLSpecialFolder.XML" />
     </files>
 </package>

@@ -24,8 +24,8 @@ OS-Specific folders.
 ## Usage
 
 ```C#
-using Plugin.PCLSpecialFolder;
-var localFolder = PCLSpecialFolder.Current.Local;
+using PCLStorage;
+var localFolder = SpecialFolder.Current.Local;
 var file = await localFolder.CreateFileAsync("test.txt", CreationCollisionOption.ReplaceExisting);
 ```
 
